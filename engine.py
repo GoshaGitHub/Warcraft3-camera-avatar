@@ -13,11 +13,10 @@ from PIL import Image, ImageSequence
 def get_base_path():
     return os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
 
-# --- ЗАГРУЗКА КОНФИГА ---
 def load_config():
     config_path = os.path.join(get_base_path(), 'config.json')
     if not os.path.exists(config_path):
-        print(f"❌ Конфиг {config_path} не найден!")
+        print(f"❌ Config {config_path} not found!")
         sys.exit()
     with open(config_path, 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -38,10 +37,8 @@ class AvatarEngine:
         self._register_camera()
 
     def _register_camera(self):
-        # Регистрация камеры в Windows
         subprocess.run(['regsvr32', '/s', self.dll_path], check=False)
         
-        # Защита от жесткого закрытия (крестик консоли или краш)
         @ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.c_uint)
         def console_handler(ctrl_type):
             if ctrl_type == 2:
@@ -53,11 +50,11 @@ class AvatarEngine:
         try:
             dev = sd.query_devices(kind='input')
             name = dev['name']
-            for word in ["Микрофон", "Microphone", "(", ")", "WASAPI", "MME"]:
+            for word in ["Microphone", "Mic", "(", ")", "WASAPI", "MME"]:
                 name = name.replace(word, "")
             return name.strip()
         except: 
-            return "Микрофон не найден"
+            return "Microphone not found"
 
     def _audio_callback(self, indata, frames, time_info, status):
         volume = np.sqrt(np.mean(indata**2))
