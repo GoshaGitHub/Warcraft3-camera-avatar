@@ -9,19 +9,19 @@
         "silence_delay": 0.5
     },
     "characters": [
-        {"id": "1", "name": "Evil Артас", "idle": "evilArthasStands.gif", "speak": "evilArthasTalks.gif"},
-        {"id": "2", "name": "Тралл", "idle": "thrallStands.gif", "speak": "thrallTalks.gif"},
-        {"id": "3", "name": "Иллидан", "idle": "evilIllidanStands.gif", "speak": "evilIllidanTalks.gif"},
-        {"id": "4", "name": "Пудж", "idle": "butcherStands.gif", "speak": "butcherTalks.gif"},
-        {"id": "5", "name": "Эмбер", "idle": "emberStands.gif", "speak": "emberTalks.gif"},
-        {"id": "6", "name": "Артас", "idle": "arthasStands.gif", "speak": "arthasTalks.gif"},
-        {"id": "7", "name": "Инвокер", "idle": "invokerStands.gif", "speak": "invokerTalks.gif"},
-	{"id": "8", "name": "Варлок", "idle": "warlockStands.gif", "speak": "warlockTalks.gif"},
-        {"id": "9", "name": "Гуля", "idle": "ghoulStands.gif", "speak": "ghoulTalks.gif"},
-        {"id": "10", "name": "Абадон", "idle": "abbadonStands.gif", "speak": "abbadonTalks.gif"},
-        {"id": "11", "name": "Боник", "idle": "skeletonStands.gif", "speak": "skeletonTalks.gif"},
-        {"id": "12", "name": "Акаша", "idle": "akashaStands.gif", "speak": "akashaTalks.gif"},
-        {"id": "13", "name": "Пугна", "idle": "pugnaStands.gif", "speak": "pugnaTalks.gif"},
-        {"id": "14", "name": "Пеон", "idle": "peonStands.gif", "speak": "peonTalks.gif"}
+        {"id": "1", "name": "Evil Arthas", "idle": "evilArthasStands.gif", "speak": "evilArthasTalks.gif"},
+        {"id": "2", "name": "Thrall", "idle": "thrallStands.gif", "speak": "thrallTalks.gif"},
+        {"id": "3", "name": "Illidan", "idle": "evilIllidanStands.gif", "speak": "evilIllidanTalks.gif"},
+        {"id": "4", "name": "Pudge", "idle": "butcherStands.gif", "speak": "butcherTalks.gif"},
+        {"id": "5", "name": "Ember Spirit", "idle": "emberStands.gif", "speak": "emberTalks.gif"},
+        {"id": "6", "name": "Arthas", "idle": "arthasStands.gif", "speak": "arthasTalks.gif"},
+        {"id": "7", "name": "Invoker", "idle": "invokerStands.gif", "speak": "invokerTalks.gif"},
+        {"id": "8", "name": "Warlock", "idle": "warlockStands.gif", "speak": "warlockTalks.gif"},
+        {"id": "9", "name": "Lifestealer", "idle": "ghoulStands.gif", "speak": "ghoulTalks.gif"},
+        {"id": "10", "name": "Abaddon", "idle": "abbadonStands.gif", "speak": "abbadonTalks.gif"},
+        {"id": "11", "name": "Clinkz", "idle": "skeletonStands.gif", "speak": "skeletonTalks.gif"},
+        {"id": "12", "name": "Akasha", "idle": "akashaStands.gif", "speak": "akashaTalks.gif"},
+        {"id": "13", "name": "Pugna", "idle": "pugnaStands.gif", "speak": "pugnaTalks.gif"},
+        {"id": "14", "name": "Peon", "idle": "peonStands.gif", "speak": "peonTalks.gif"}
     ]
 }
